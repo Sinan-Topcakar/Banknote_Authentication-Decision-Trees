@@ -6,7 +6,7 @@ The implementation was done in Python using **Google Colab** and libraries such 
 
 ---
 
-## 📁 Files
+## Files
 
 - `ELE_489HW2.ipynb`: The main Colab notebook containing:
   - Data loading and exploration
@@ -18,7 +18,7 @@ The implementation was done in Python using **Google Colab** and libraries such 
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 - **Dataset**: Banknote Authentication (UCI)
 - **Instances**: 1372
@@ -31,7 +31,7 @@ The implementation was done in Python using **Google Colab** and libraries such 
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 1. **Exploratory Data Analysis (EDA)**  
    Feature pairs were plotted to understand separability.
@@ -53,29 +53,11 @@ The implementation was done in Python using **Google Colab** and libraries such 
    - F1-score
    - Confusion Matrix
 
-5. **Best Model**  
-   The highest performing model used:
-   - `criterion = "entropy"`
-   - `max_depth = 2`
-   - `min_samples_split = 10`
-
-6. **Feature Importance**  
-   - `variance` was the most important feature.
-   - `skewness` and `kurtosis` had moderate impact.
-   - `entropy` had minimal contribution.
-
-7. **Interpretability**  
+5. **Interpretability**  
    The tree structure was visualized using `plot_tree()` for insights on decision paths.
 
----
 
-## 🧠 Conclusion
-
-The Decision Tree model was found to be both **accurate and interpretable** for this classification task. Its performance, coupled with its simplicity, makes it a suitable model for banknote authentication based on image statistics.
-
----
-
-## ▶️ How to Run
+## How to Run
 
 1. Open the notebook `ELE_489HW2.ipynb` in **Google Colab**.
 2. Run the notebook sequentially to see results and visualizations.
@@ -84,9 +66,5 @@ The Decision Tree model was found to be both **accurate and interpretable** for 
 
 ---
 
-## 🔗 Project Link
 
-> Add your GitHub repository link here before submission.
-
----
 
